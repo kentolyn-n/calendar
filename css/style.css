@@ -1,0 +1,35 @@
+ body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: auto;
+      text-align: center;
+    }
+    .calendar {
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .days {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .dates {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      margin-top: 5px;
+    }
+    .dates div {
+      padding: 10px;
+      border: 1px solid #eee;
+    }
+        .today {
+      background: lightblue;
+      border-radius: 50%;
+    }
+     
